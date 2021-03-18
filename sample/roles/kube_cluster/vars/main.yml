@@ -1,0 +1,6 @@
+---
+# vars file for kube_cluster
+#remove comment of below var if you want a single type of node to be configured
+#node_name: ""
+network_cidr: "10.244.0.0/16"
+role_path: "/root/.ansible/collections/ansible_collections/aman_rathi1/kube_cluster/roles"

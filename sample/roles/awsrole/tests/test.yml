@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  vars:
+    tag_name: "master"
+    count: 1
+  roles:
+    - awsrole

@@ -1,0 +1,58 @@
+
+- hosts: localhost
+  vars:
+     key_name: ""
+     instance_type: ""
+     ami_id: ""
+     wait: yes
+     subnet_id: ""
+     assign_ip: yes
+     region: ""
+     state: present
+     security_group: ""
+     tag_name: master
+     count: 1
+  tasks:
+  - name: launching master nodes   
+    include_role:
+        role: aman_rathi1.kubernetes.awsrole
+
+ 
+- hosts: localhost
+  vars:
+     key_name: ""
+     instance_type: ""
+     ami_id: ""
+     wait: yes
+     subnet_id: ""
+     assign_ip: yes
+     region: ""
+     state: present
+     security_group: ""
+     tag_name: slave
+     count: 1
+  tasks:
+  - name: launching slave nodes
+    include_role:
+        name: aman_rathi1.kubernetes.awsrole
+  - name: refreshing inventory
+    meta: "refresh_inventory"
+
+
+- hosts: tag_name_master
+  vars:
+     node_name: master
+  tasks:
+  - name: configuring master
+    include_role:
+      name: aman_rathi1.kubernetes.kube_cluster
+
+
+- hosts: tag_name_slave
+  vars:
+    node_name: slave
+  tasks:
+  - name: configuring slave
+    include_role:
+      name: aman_rathi1.kubernetes.kube_cluster
+   

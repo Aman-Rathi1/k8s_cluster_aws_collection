@@ -1,0 +1,1 @@
+token: kubeadm join 172.31.34.121:6443 --token vgdf5k.ukaldcm5hlskh053     --discovery-token-ca-cert-hash sha256:9f699143a51488d7722ce1d85bb9c89b96cbc23073524a2463a7851603c70949 

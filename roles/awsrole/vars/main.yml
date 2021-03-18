@@ -1,0 +1,12 @@
+---
+# vars file for awsrole
+key_name: "wordpress_key"
+instance_type: "t2.micro"
+ami_id: "ami-081bb417559035fe8"
+wait: yes
+subnet_id: "subnet-d17f7eb9"
+assign_ip: yes
+region: "ap-south-1"
+state: present
+security_group: "sg-09772356f8c2c2dbe"
+

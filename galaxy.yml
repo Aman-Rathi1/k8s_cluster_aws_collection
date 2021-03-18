@@ -17,13 +17,13 @@ readme: README.md
 # A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
 # @nicks:irc/im.site#channel'
 authors:
-- your name <example@domain.com>
+- Aman Rathi <https://www.linkedin.com/in/aman-rathi-76b72b1a1/>
 
 
 ### OPTIONAL but strongly recommended
 
 # A short summary description of the collection
-description: your collection description
+description: k8s multi node cluster on aws
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
@@ -32,11 +32,11 @@ license:
 
 # The path to the license file for the collection. This path is relative to the root of the collection. This key is
 # mutually exclusive with 'license'
-license_file: ''
+license_file: 'LICENCE'
 
 # A list of tags you want to associate with the collection for indexing/searching. A tag name has the same character
 # requirements as 'namespace' and 'name'
-tags: []
+tags: [kubernetes,docker,aws,cluster]
 
 # Collections that this collection requires to be installed for it to be usable. The key of the dict is the
 # collection label 'namespace.name'. The value is a version range
@@ -45,13 +45,13 @@ tags: []
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: http://example.com/repository
+repository: https://github.com/Aman-Rathi1/k8s_cluster_aws_collection.git
 
 # The URL to any online docs
-documentation: http://docs.example.com
+documentation: https://github.com/Aman-Rathi1/k8s_cluster_aws_collection/tree/master/docs
 
 # The URL to the homepage of the collection/project
-homepage: http://example.com
+homepage: https://github.com/Aman-Rathi1/k8s_cluster_aws_collection.git
 
 # The URL to the collection issue tracker
-issues: http://example.com/issue/tracker
+issues: https://github.com/Aman-Rathi1/k8s_cluster_aws_collection/issues

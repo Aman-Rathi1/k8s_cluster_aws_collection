@@ -43,4 +43,6 @@ BSD
 
 Author Information
 ------------------
-https://www.linkedin.com/in/aman-rathi-76b72b1a1/
+linkedin   *https://www.linkedin.com/in/aman-rathi-76b72b1a1/*
+
+github *https://github.com/Aman-Rathi1/*

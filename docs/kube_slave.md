@@ -36,11 +36,3 @@ example how to configure slave node
       roles:
          - { role: amanrathi1.kubernetes.kube_cluster }
 
-License
--------
-
-BSD
-
-Author Information
-------------------
-https://www.linkedin.com/in/aman-rathi-76b72b1a1/

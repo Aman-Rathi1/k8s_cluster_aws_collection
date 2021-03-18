@@ -1,7 +1,7 @@
 Role Name
 =========
 
-This roles helps to launch instances on aws cloud al you need to do is folloe below steps
+This roles helps to launch instances on aws cloud al you need to do is follow below steps
 1. Configure the ansible.cfg like this
  
        [defaults]
@@ -81,11 +81,3 @@ This playbook launch
       roles:
          - { role: amanrathi1.awsrole }
 
-License
--------	
-
-BSD
-
-Author Information
-------------------
-github (https://github.com/Aman-Rathi1/)

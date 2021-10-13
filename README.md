@@ -163,7 +163,7 @@ Tested on
 
 Example 
 -------
-Compelte playbook for using this collection
+Complete playbook for using this collection
           
 
              - hosts: localhost
